@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('雪美~~~|welcome to|blog|of|Wang|↑↑↑|');
+      S.UI.simulate('~_~!!!|welcome to|blog|of|Wang|↑↑↑|');
     }
 
     S.Drawing.loop(function () {
