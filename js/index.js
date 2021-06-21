@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('wzl❤hxm|welcome to|our|blog|↑↑↑|');
+      S.UI.simulate('wzl❤hxm|welcome to|our|blog|');
     }
 
     S.Drawing.loop(function () {
@@ -44,7 +44,7 @@ S.Drawing = (function () {
                      window.oRequestAnimationFrame      ||
                      window.msRequestAnimationFrame     ||
                      function(callback) {
-                       window.setTimeout(callback, 6000 / 60);
+                       window.setTimeout(callback, 1000 / 60);
                      };
 
   return {
