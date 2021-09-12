@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|wzl❤hcm||wzl❤hcm|wzl❤hcm|wzl❤hcm|wzl❤hcm|wzl❤hcm|');
+      S.UI.simulate('|AN IC VERIFIER|');
     }
 
     S.Drawing.loop(function () {
